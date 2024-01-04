@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API Demo!"
+        android:textSize="40sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etUserIdFromUI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the user id"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnGetUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get User"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnGetAllUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get All"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result goes here"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/user_row_layout"/>
+
+</LinearLayout>
