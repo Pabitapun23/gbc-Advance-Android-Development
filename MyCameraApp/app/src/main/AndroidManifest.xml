@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--    uses-feature-->
+<!--    when you deploy the app into the play store-->
+<!--    people can see a description of your app-->
+<!--    and a description of what hardware / features your app uses-->
+<!--    This will tell the app store that your app needs to use the camera-->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+<!--    On newer versions of android (API29 and higher)-->
+<!--    NOT a runtime permission-->
+<!--    You don’t have to show a popup asking for permission to use it-->
+
+<!--    On older versions of android (API28 and below)-->
+<!--    IS a runtime permission-->
+<!--    You must show the permissions popup box-->
+
+
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyCameraApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
