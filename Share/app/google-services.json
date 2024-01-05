@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927095885637",
+    "project_id": "fall2023s2",
+    "storage_bucket": "fall2023s2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927095885637:android:de5627d5d36956b4dc782c",
+        "android_client_info": {
+          "package_name": "com.pp.share"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGpz3Ng3Ye-t637wmo55zQN7Zy8kOezgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

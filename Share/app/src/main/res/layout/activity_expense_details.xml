@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ExpenseDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/tv_expense_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expense Details"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        android:textSize="32sp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_check_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/prompt_check"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/et_persons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/prompt_persons"
+        android:inputType="number"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_tip"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+
+    <Spinner
+        android:id="@+id/sp_tip_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="24sp"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_donation"
+        android:textSize="20sp"
+        android:layout_margin="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_donation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <RadioButton
+            android:id="@+id/rb_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rb_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>

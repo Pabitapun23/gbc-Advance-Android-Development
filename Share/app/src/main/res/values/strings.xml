@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">Share</string>
+    <string name="prompt_check">Enter Check Amount</string>
+    <string name="prompt_persons">Enter Number of Persons</string>
+    <string name="prompt_tip">How much tip would you like to leave?</string>
+    <string name="prompt_donation">Would you like to donate $5 to Sick Kids Ontario?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="transaction_date">Transaction Date</string>
+    <string name="calculate">Calculate</string>
+    <string name="tip_amount">Tip Amount :</string>
+    <string name="total_bill_amount">Total Bill Amount :</string>
+    <string name="amount_per_person">Amount Per Person :</string>
+    <string name="error_check_amount">Please enter check amount</string>
+    <string name="error_persons">Please enter number of persons</string>
+
+    <string-array name="array_tip">
+        <item>No tip</item>
+        <item>5 %</item>
+        <item>10 %</item>
+        <item>Max (20%)</item>
+    </string-array>
+
+    <string name="hint_enter_email">Enter Email</string>
+    <string name="hint_enter_password">Enter Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+</resources>

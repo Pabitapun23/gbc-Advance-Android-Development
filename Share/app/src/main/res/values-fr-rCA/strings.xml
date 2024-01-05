@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Share</string>
+    <string name="prompt_check">Entrez le montant de la vérification</string>
+    <string name="prompt_persons">Inscrire le nombre de personnes</string>
+    <string name="prompt_tip">Combien de pourboire aimeriez-vous laisser?</string>
+    <string name="prompt_donation">Aimeriez-vous faire un don de 5 $ à Enfants malades Ontario?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="transaction_date">Transaction Date</string>
+    <string name="calculate">Calculer</string>
+    <string name="tip_amount">Montant du pourboire :</string>
+    <string name="total_bill_amount">Montant total de la facture :</string>
+    <string name="amount_per_person">Montant par personne :</string>
+    <string name="error_check_amount">Veuillez saisir le montant du chèque</string>
+    <string name="error_persons">Veuillez saisir le nombre de personnes</string>
+
+    <string-array name="array_tip">
+        <item>Pas de pourboire</item>
+        <item>5 %</item>
+        <item>10 %</item>
+        <item>Max. (20%)</item>
+    </string-array>
+</resources>
